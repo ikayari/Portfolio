@@ -367,8 +367,8 @@ code {
   </script>
 <h1 id="grability">GrAbility</h1>
 <h1 id="%E6%93%8D%E4%BD%9C%E8%AA%AC%E6%98%8E">操作説明</h1>
-<p><img src="メニュー操作時.png" alt="メニュー操作説明画像">
-<img src="ゲーム操作時.png" alt="ゲーム操作説明画像"></p>
+<p><img src="メニュー操作時.png" alt="メニュー操作説明">
+<img src="ゲーム操作時.png" alt="ゲーム操作説明"></p>
 <h1 id="%E6%8B%85%E5%BD%93%E3%82%BD%E3%83%BC%E3%82%B9%E3%82%B3%E3%83%BC%E3%83%89">担当ソースコード</h1>
 <h2 id="%E5%A5%BD%E6%9D%91">好村</h2>
 <h2 id="%E8%B1%8A%E5%B2%A1-%E5%A4%A7">豊岡 大</h2>
@@ -424,13 +424,24 @@ code {
 複数枚のテクスチャの平均を取って加算合成することで<br>
 光のあふれを表現できるようになっています。<br>
 <strong>通常シーン</strong><br>
-<img src="通常シーン.png" alt="通常シーン画像"><br>
+<img src="通常シーン.png" alt="通常シーン"><br>
 <strong>輝度抽出</strong><br>
-<img src="輝度抽出.png" alt="輝度抽出画像"><br>
+<img src="輝度抽出.png" alt="輝度抽出"><br>
 <strong>ガウシアンブラーとダウンサンプリング（これを複数回繰り返す）</strong><br>
-<img src="ダウンサンプリング.png" alt="ガウシアンブラー、ダウンサンプリング語画像"><br>
+<img src="ダウンサンプリング.png" alt="ガウシアンブラー、ダウンサンプリング"><br>
 <strong>加算合成後</strong><br>
-<img src="加算合成後.png" alt="川瀬式ブルーム画像"></p>
+<img src="加算合成後.png" alt="川瀬式ブルーム"></p>
+<h1 id="%E3%83%A2%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3%E3%83%96%E3%83%A9%E3%83%BC">モーションブラー</h1>
+<p>現在のモデルの位置と１フレーム前のモデルの位置から
+そのピクセルの移動速度を計算、速度マップを描画。<br>
+その速度マップを使用して通常シーンを速度方向にずらして複数回サンプリングして平均を取ってそのテクスチャを加算合成することで<br>
+残像のようなポストエフェクトを表現しています。<br>
+<strong>通常シーン</strong><br>
+<img src="モーションブラー通常.png" alt="通常シーン"><br>
+<strong>速度マップ</strong><br>
+<img src="速度マップ.png" alt="速度マップ"><br>
+<strong>加算合成後</strong><br>
+<img src="モーションブラー.png" alt="モーションブラー"></p>
 
 </body>
 </html>
