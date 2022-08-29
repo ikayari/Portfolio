@@ -25,6 +25,10 @@
 三人称視点でボールを弾くように動かして時間切れになる前に  
 ゴールを目指すミニゲームです。  
 
+**紹介動画**
+<iframe width="560" height="315" src="https://youtu.be/JfZP9xSGWfo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" loading="lazy" allowfullscreen></iframe>
+
+
 - **使用ゲームエンジン**  
 学校内製エンジン(DirectX12)を改造して制作  
 
