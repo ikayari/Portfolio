@@ -26,7 +26,9 @@
 ゴールを目指すミニゲームです。  
 
 **紹介動画**
-<iframe width="560" height="315" src="https://youtu.be/JfZP9xSGWfo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" loading="lazy" allowfullscreen></iframe>
+
+[![グラビリティ紹介動画](http://img.youtube.com/vi/JfZP9xSGWfo/0.jpg)](http://www.youtube.com/watch?v=JfZP9xSGWfo)
+
 
 
 - **使用ゲームエンジン**  
